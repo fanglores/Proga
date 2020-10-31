@@ -18,6 +18,11 @@ int subtraction(int a, int b)
 
 int division(int a, int b)
 {
+		if(b == 0)
+		{
+			cout << "\n!!!Fatal Error\nDivision by zero!!!\n";
+			return 0;
+		}
 		return a / b;
 }
 
